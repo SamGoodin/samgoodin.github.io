@@ -44,7 +44,7 @@ function createHeader () {
 
 	var headshot = document.createElement("img");
 	headshot.id = "headshot";
-	headshot.src = "media/headshot.png";
+	headshot.src = "media/headshot.PNG";
 	headshot.alt = "Sam Goodin Headshot";
 	headshot.width = 75;
 	headshot.height = 75;
