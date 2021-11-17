@@ -80,6 +80,7 @@ function createMenu() {
 		var link = document.createElement(menuItems[i][1]);
 		link.href = menuItems[i][2];
 		link.innerHTML = menuItems[i][0];
+		link.class = "link-dark";
 		if (menuItems[i][3]) {
 			link.target = menuItems[i][3];
 		}
